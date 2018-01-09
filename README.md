@@ -1,6 +1,6 @@
 # App Directory
-<blockquote>
-  Please take note, that I only added the APP folder from my angular application to GIT!
+<blockquote style="font-size: 20px;">
+  Please take note, only the APP folder was added from my angular application to GIT!
 </blockquote>
 <h2>Introduction</h2>
 <p>For my first angular app I built a prototype application for users to find currently active players within the League of Legends universe, Ive always found that one struggles to find proper duo partners.</p>
