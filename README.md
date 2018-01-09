@@ -2,6 +2,9 @@
 <blockquote style="font-size: 20px;">
   Please take note, only the APP folder was added from my angular application to GIT!
 </blockquote>
+<blockquote style="font-size: 20px;">
+  All data within the app was created with default Arrays[]
+</blockquote>
 <h2>Introduction</h2>
 <p>For my first angular app I built a prototype application for users to find currently active players within the League of Legends universe, Ive always found that one struggles to find proper duo partners.</p>
 <p>So the idea was to create an App that create a easy to use flow of user interaction to find friends and players online.</p>
