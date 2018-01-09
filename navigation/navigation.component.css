@@ -1,0 +1,59 @@
+/* NAVIGATION STYLES */
+.navigation{
+    display: table;
+    width: 100%; position: fixed;
+    left: 50%; top: 0;
+    max-width: 400px;
+    margin-left: -200px;
+    z-index: 99999;
+}
+.navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li{
+    display: table;
+    background: rgba(0,0,0,0.6);
+    height: 60px;
+    width: 25%;
+    float: left;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+.navigation ul li:before{
+    display: table;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    opacity: 0.5;
+    font-size: 20px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.navigation ul li:hover:before{
+    font-size: 28px;
+    opacity: 1.0;
+    color: greenyellow;
+}
+.navigation ul li.active:before{
+    opacity: 1.0;
+    font-size: 30px;
+}
+@media (max-width: 399px) {
+    .navigation{
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+<h1 class="pull-center">
+  {{title}}
+</h1>
+<div class="online">
+  <ul>
+    <li *ngFor="let user of users" routerLink="/detail/{{user.id}}">
+      <div class="online-inner" [style.background-image]="sanImage(user.image)">
+        <span>
+          {{user.name}}
+          <a>Playing {{user.champ}}</a>
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>

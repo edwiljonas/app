@@ -1,0 +1,33 @@
+<div *ngIf="user">
+  <div class="user-intro" [style.background-image]="sanImage(user.profileImage)">
+    <h1 class="pull-center">
+      {{ user.name }}
+    </h1>
+    <p class="pull-center">{{intro}}</p>
+  </div>
+  <h1 class="pull-center">
+    {{played}}
+  </h1>
+  <div class="most-played">
+    <ul>
+      <li *ngFor="let user of user.played" [style.background-image]="sanImage(user.image)">
+
+      </li>
+    </ul>
+  </div>
+  <h1 class="pull-center">
+    {{history}}
+  </h1>
+  <div class="history">
+    <ul>
+      <li *ngFor="let user of user.history">
+        <div class="history-inner" [style.background-image]="sanImage(user.image)">
+        <span>
+          <label class="{{'Victory' == user.status ? 'Victory' : 'Defeat' }}">{{user.status | uppercase}}</label>
+          <a>Played {{user.champ}}</a>
+        </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

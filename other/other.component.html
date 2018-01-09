@@ -1,0 +1,15 @@
+<h1 class="pull-center">
+  {{title}}
+</h1>
+<div class="other">
+  <ul>
+    <li *ngFor="let user of users">
+      <div class="other-inner" [style.background-image]="sanImage(user.image)">
+        <span>
+          {{user.name}}
+          <a>Playing {{user.champ}}</a>
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>

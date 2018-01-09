@@ -1,0 +1,9 @@
+.message{
+    display: table; margin: 25px auto;
+    width: 80%;
+    background-color: lightcoral;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
