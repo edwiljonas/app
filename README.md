@@ -1,5 +1,8 @@
 # App Directory
 <blockquote style="font-size: 20px;">
+  I created the Design, HTML, CSS and all the angular functionality for the app. Approx (7 hours)
+</blockquote>
+<blockquote style="font-size: 20px;">
   Please take note, only the APP folder was added from my angular application to GIT!
 </blockquote>
 <blockquote style="font-size: 20px;">
